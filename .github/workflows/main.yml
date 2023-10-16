@@ -26,5 +26,5 @@ jobs:
       run: |
         echo "Corriendo pruebas Cypress..."
         echo "Pruebas correctas! Todo bien!"
-#       echo "No tienes instalado Cypress! Tonto!"
+        echo "No tienes instalado Cypress! Tonto!"
         exit 0
