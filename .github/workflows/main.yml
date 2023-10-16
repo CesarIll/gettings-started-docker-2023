@@ -7,7 +7,7 @@ on:
       - test-branch
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,6 +18,13 @@ jobs:
       run: |
         npm install
 
-    - name: Pruebas
+    - name: Pruebas Jest
       run: |
         npm run test
+
+    - name: Pruebas Cypress
+      run: |
+        echo "Corriendo pruebas Cypress..."
+        echo "Pruebas incorrectas! Todo mal!"
+        echo "No tienes instalado Cypress! Tonto!"
+        exit 70
