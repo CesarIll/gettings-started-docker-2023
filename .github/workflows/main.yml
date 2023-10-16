@@ -21,7 +21,7 @@ jobs:
     - name: Pruebas Jest
       run: |
         npm run test
-
+        
     - name: Pruebas Cypress
       run: |
         echo "Corriendo pruebas Cypress..."
